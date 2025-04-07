@@ -1,4 +1,4 @@
-# 💬 Real-time Chat App
+# Real-time Chat App
 
 A simple real-time chat application built with **React** and **WebSocket**.
 
