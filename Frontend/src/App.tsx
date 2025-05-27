@@ -10,7 +10,7 @@ function App(){
   const SendMessageInputRef = useRef<HTMLInputElement | null>(null);
   
   useEffect(() => {
-    const Socket = new WebSocket("ws://localhost:8080");
+    const Socket = new WebSocket("wss://web2-chat-app.onrender.com");
     socketRef.current = Socket;
   
     Socket.onmessage = (event) => {
